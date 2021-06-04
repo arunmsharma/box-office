@@ -11,13 +11,12 @@ const Home = () => {
   const [searchOption, setSearchOption] = useState('shows');
 
   const isShowSearch = searchOption === 'shows';
-
   function onSearch() {
     apiGet(`/search/${searchOption}?q=${input}`).then(result =>
       setResult(result)
     );
   }
-  console.log(results);
+
   function onInputChange(ev) {
     setInput(ev.target.value);
   }
@@ -32,7 +31,7 @@ const Home = () => {
     setSearchOption(ev.target.value);
   };
 
-  console.log(searchOption);
+  // console.log(searchOption);
 
   const renderResults = () => {
     if (results && results.length === 0) {
