@@ -12,6 +12,6 @@ The App uses TV-MAZE API ( https://www.tvmaze.com/api ) to fetch data.
 3. React Routers.
 4. Styled Components
 5. Custom Hooks.
-6. Dynamic Pages and dyanmic CSS-in-JS.
+6. Dynamic Pages and dynamic CSS-in-JS.
 7. Deployment to github-pages.
 
